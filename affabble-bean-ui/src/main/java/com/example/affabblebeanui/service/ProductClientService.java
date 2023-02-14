@@ -75,7 +75,8 @@ public class ProductClientService {
                 System.out.println("Successfully CheckOut...............");
             }
         }catch (HttpClientErrorException e) {
-            throw new IllegalArgumentException(e.getMessage());
+            String msg = String.format("%s and %s is not found in payment account!",email,name);
+            throw new IllegalArgumentException(msg);
         }
 
     }
