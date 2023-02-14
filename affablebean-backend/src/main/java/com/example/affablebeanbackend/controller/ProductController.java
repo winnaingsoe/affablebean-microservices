@@ -106,7 +106,7 @@ public class ProductController {
     @SneakyThrows
     @ResponseBody
     @PostMapping("/read-excel")
-    public String  readExcel(@RequestParam("file")MultipartFile file){
+    public String readExcel(@RequestParam("file")MultipartFile file){
 
         XSSFWorkbook workbook=new XSSFWorkbook(file.getInputStream());
         XSSFSheet sheet=workbook.getSheetAt(0);
