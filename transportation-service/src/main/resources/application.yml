@@ -3,8 +3,8 @@ spring:
     name: transportation-service
   datasource:
     url: jdbc:mysql://localhost:3306/transport
-    username: root
-    password: smile
+    username: pneumo
+    password: Secu30rity@#
 
 server:
   port: 8050

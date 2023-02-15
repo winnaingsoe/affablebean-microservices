@@ -1,6 +1,6 @@
 #FileLock
-#Wed Feb 15 10:31:10 MMT 2023
-server=192.168.56.1\:50482
-hostName=MSI
+#Wed Feb 15 10:41:48 MMT 2023
+server=127.0.1.1\:38147
+hostName=mypc
 method=file
-id=186533bae9c16e8051bd1ec85f32a7c4daf108b453b
+id=186534576a8106a70a935f0de9227fb9002972801dc
