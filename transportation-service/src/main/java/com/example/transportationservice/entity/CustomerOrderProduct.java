@@ -12,6 +12,7 @@ public class CustomerOrderProduct {
     private Integer id;
     private String orderId;
     private LocalDateTime transportTime;
+    private double totalAmount;
     @OneToOne
     private Customer customer;
     @OneToMany(mappedBy = "customerOrderProduct")

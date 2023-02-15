@@ -1,4 +1,6 @@
 #FileLock
-#Tue Feb 14 08:54:42 UTC 2023
-id=1864f2222ec467c2a606381b3fb9f68dece6a8598c0
+#Wed Feb 15 10:31:10 MMT 2023
+server=192.168.56.1\:50482
+hostName=MSI
 method=file
+id=186533bae9c16e8051bd1ec85f32a7c4daf108b453b
